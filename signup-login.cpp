@@ -22,7 +22,7 @@ system("cls");
 		cout<<"\n\t\t\t3.Users which sign up (If you don't sign up atleast for once, it will return you)";
 		cout<<"\n\t\t\t4.Exit";
 		cout<<"\n\t\t\tReply(1/2/3/4): ";
-		cin>>a;
+		a=getche();
 		
 		if(a==1){//signup
 			signup();
